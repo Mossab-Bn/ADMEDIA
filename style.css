@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div.pc {
+    display: block;
+}
+
+img.img-pc {
+    width: 100%;
+    display: block;
+}
+
+div.phone {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    div.pc {
+        display: none;
+    }
+    div.phone {
+        display: block;
+    }
+    img.img-phone {
+        width: 100%;
+        display: block;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+  }
